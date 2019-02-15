@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">D3</string>
+    <string name="part_3_1">3.1 其它布局</string>
+    <string name="relative_xml">xml定义相对布局</string>
+    <string name="relative_code">代码定义相对布局</string>
+    <string name="frame">框架布局</string>
+
+    <string name="btn_center">我在中间</string>
+    <string name="btn_center_horizontal">我在水平中间</string>
+    <string name="btn_center_vertical">我在垂直中间</string>
+    <string name="btn_parent_left">我跟上级左边对齐</string>
+    <string name="btn_parent_top">我跟上级顶部对齐</string>
+    <string name="btn_parent_right">我跟上级右边对齐</string>
+    <string name="btn_parent_bottom">我跟上级底部对齐</string>
+    <string name="btn_left_bottom">我在底部左边</string>
+    <string name="btn_right_bottom">我在底部右边</string>
+    <string name="btn_above_center">我在中间上面</string>
+    <string name="btn_below_center">我在中间下面</string>
+
+    <string name="btn_relative">点击按钮添加视图，长按视图删除自身</string>
+    <string name="btn_add_left">添加左边视图</string>
+    <string name="btn_add_above">添加上方视图</string>
+    <string name="btn_add_right">添加右边视图</string>
+    <string name="btn_add_below">添加下方视图</string>
+    <string name="btn_add_center">添加中间视图</string>
+    <string name="btn_add_parent_left">添加上级左侧对齐视图</string>
+    <string name="btn_add_parent_top">添加上级顶部对齐视图</string>
+    <string name="btn_add_parent_right">添加上级右侧对齐视图</string>
+    <string name="btn_add_parent_bottom">添加上级底部对齐视图</string>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_content"
+    tools:context=".RelativeCodeActivity">
+
+    <TextView
+        android:id="@+id/btn_relative"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_relative"/>
+    <Button
+        android:id="@+id/btn_add_left"
+        style="@style/btn_relative"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_add_left"/>
+    <Button
+        android:id="@+id/btn_add_above"
+        style="@style/btn_relative"
+        android:layout_below="@+id/btn_add_left"
+        android:layout_alignLeft="@+id/btn_add_left"
+        android:text="@string/btn_add_above"
+        android:layout_alignStart="@+id/btn_add_left" />
+    <Button
+        android:id="@+id/btn_add_right"
+        style="@style/btn_relative"
+        android:layout_below="@+id/btn_add_above"
+        android:layout_alignLeft="@+id/btn_add_left"
+        android:text="@string/btn_add_right"
+        android:layout_alignStart="@+id/btn_add_left" />
+    <Button
+        android:id="@+id/btn_add_below"
+        style="@style/btn_relative"
+        android:layout_below="@+id/btn_add_right"
+        android:layout_alignLeft="@+id/btn_add_left"
+        android:text="@string/btn_add_below"
+        android:layout_alignStart="@+id/btn_add_left" />
+    <Button
+        android:id="@+id/btn_add_center"
+        style="@style/btn_relative"
+        android:layout_below="@+id/btn_add_below"
+        android:layout_alignLeft="@+id/btn_add_left"
+        android:text="@string/btn_add_center"
+        android:layout_alignStart="@+id/btn_add_left" />
+    <Button
+        android:id="@+id/btn_add_parent_left"
+        style="@style/btn_relative"
+        android:layout_below="@+id/btn_add_center"
+        android:layout_alignLeft="@+id/btn_add_left"
+        android:text="@string/btn_add_parent_left"
+        android:layout_alignStart="@+id/btn_add_left" />
+    <Button
+        android:id="@+id/btn_add_parent_top"
+        style="@style/btn_relative"
+        android:layout_below="@+id/btn_add_parent_left"
+        android:layout_alignLeft="@+id/btn_add_left"
+        android:text="@string/btn_add_parent_top"
+        android:layout_alignStart="@+id/btn_add_left" />
+
+    <Button
+        android:id="@+id/btn_add_parent_right"
+        style="@style/btn_relative"
+        android:layout_below="@+id/btn_add_parent_top"
+        android:layout_alignLeft="@+id/btn_add_left"
+        android:text="@string/btn_add_parent_right"
+        android:layout_alignStart="@+id/btn_add_left" />
+
+    <Button
+        android:id="@+id/btn_add_parent_bottom"
+        style="@style/btn_relative"
+        android:layout_below="@+id/btn_add_parent_right"
+        android:layout_alignLeft="@+id/btn_add_left"
+        android:text="@string/btn_add_parent_bottom"
+        android:layout_alignStart="@+id/btn_add_left" />
+</RelativeLayout>
