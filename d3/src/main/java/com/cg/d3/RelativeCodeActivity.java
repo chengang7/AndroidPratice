@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.cg.d3.utils.Utils;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -84,7 +86,8 @@ public class RelativeCodeActivity extends AppCompatActivity {
         //设置视图的颜色为半透明
         view.setBackgroundColor(0xaa66ff66);
         //声明一个布局参数，其中宽度为100dp,高度也为100dp
-        //RelativeLayout.LayoutParams layoutParams = new
+        RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(
+                Utils.dip2px(this,100),Utils.dip2px(this,100));
 
     }
 }
