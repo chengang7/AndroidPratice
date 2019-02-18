@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RelativeXmlActivity" />
-        <activity android:name=".RelativeCodeActivity"></activity>
+        <activity android:name=".RelativeCodeActivity" />
+        <activity android:name=".FrameActivity"></activity>
     </application>
 
 </manifest>

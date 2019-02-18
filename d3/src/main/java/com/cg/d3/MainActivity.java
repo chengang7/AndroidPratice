@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnRelativeCode;
     @butterknife.BindView(R.id.btn_frame)
     Button btnFrame;
+    private Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,12 +27,16 @@ public class MainActivity extends AppCompatActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_relative_xml:
-                Intent intent = new Intent(this,RelativeXmlActivity.class);
+                intent = new Intent(this,RelativeXmlActivity.class);
                 startActivity(intent);
                 break;
             case R.id.btn_relative_code:
+                intent = new Intent(this,RelativeCodeActivity.class);
+                startActivity(intent);
                 break;
             case R.id.btn_frame:
+                intent = new Intent(this,FrameActivity.class);
+                startActivity(intent);
                 break;
         }
     }
